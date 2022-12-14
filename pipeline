@@ -6,14 +6,14 @@ Pipeline
  {
    steps
    {
-     echo ("i am validating)
+     echo ("i am validating")
    }
  }
  stage("compile")
  {
    steps
    {
-     echo ("i am compiling)
+     echo ("i am compiling")
    }
   }
  }
