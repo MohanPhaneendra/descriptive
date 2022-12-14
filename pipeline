@@ -1,0 +1,19 @@
+Pipeline
+{
+ Agent any
+ Stages{
+ stage("validate")
+ {
+   steps
+   {
+     echo ("i am validating)
+   }
+ }
+ stage("compile")
+ {
+   steps
+   {
+     echo ("i am compiling)
+   }
+  }
+ }
