@@ -1,18 +1,20 @@
 Pipeline
 {
  Agent any
- Stages{
+ Stages
+{
  stage("validate")
- {
-   steps
-   {
+{
+  steps
+{
      echo ("i am validating")
-   }
- }
+}
+}
  stage("compile")
- {
+{
    steps
-   {
+{
      echo ("i am compiling")
-   }
-  }
+}
+}
+}
